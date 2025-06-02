@@ -1,0 +1,53 @@
+package android.lucas.etimpamilucaspreferenciasdecores
+
+import android.os.Bundle
+import android.graphics.Color
+import android.lucas.etimpamilucaspreferenciasdecores.databinding.ActivityMainBinding
+import android.view.inputmethod.InputBinding
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+
+
+class MainActivity : AppCompatActivity() {
+    lateinit var binding: ActivityMainBinding
+
+    private var cor = ""
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+
+        supportActionBar!!.hide()
+        window.statusBarColor = Color.WHITE
+        binding = ActivityMainBinding.inflate(layoutInflater)
+
+        setContentView(binding.root)
+
+        binding.cor1.setOnClickListener{
+            cor = "#ff3700b3"
+        }
+
+        binding.cor2.setOnClickListener{
+
+        }
+
+        binding.cor3.setOnClickListener{
+
+        }
+
+        binding.cor4.setOnClickListener{
+
+        }
+        binding.cor5.setOnClickListener{
+
+        }
+
+        binding.cor6.setOnClickListener{
+
+        }
+
+
+    }
+}
