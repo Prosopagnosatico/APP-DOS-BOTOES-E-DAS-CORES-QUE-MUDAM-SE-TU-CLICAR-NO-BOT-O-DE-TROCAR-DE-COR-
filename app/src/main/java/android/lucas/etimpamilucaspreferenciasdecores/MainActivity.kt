@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.cor1.setOnClickListener{
-            cor = "#ff3700b3"
+            cor = "#FF0000"
         }
 
         binding.cor2.setOnClickListener{
