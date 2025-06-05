@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.cor6.setOnClickListener{
-
+            cor = "FF5722"
         }
 
 
