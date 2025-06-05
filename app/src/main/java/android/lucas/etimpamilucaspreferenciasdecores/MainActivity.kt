@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.cor2.setOnClickListener{
-
+            cor = "#00DDFF"
         }
 
         binding.cor3.setOnClickListener{
