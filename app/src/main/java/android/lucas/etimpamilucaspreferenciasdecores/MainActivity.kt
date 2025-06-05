@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.cor3.setOnClickListener{
-
+            cor = "#08E700"
         }
 
         binding.cor4.setOnClickListener{
