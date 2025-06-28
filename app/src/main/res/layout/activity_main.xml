@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:id="@+id/main">
+    android:id="@+id/main"
+    app:layout_constraintTop_toBottomOf="@id/horizontal"
+    >
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -68,6 +70,7 @@
     </HorizontalScrollView>
 
     <Button
+        android:id="@+id/btnTrocar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
